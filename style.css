@@ -1,0 +1,297 @@
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #ef233c;
+}
+
+.bos{
+    clear: both;
+}
+
+
+ul li {
+    padding: 10px;
+}
+
+
+#home{
+    padding: 5px;
+}
+
+
+.c-item{
+    height: 620px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+
+
+.carousel-indicators{
+    position: absolute;
+}
+
+.toast{
+    bottom: 15px;
+    right: 15px;
+    z-index: 9999;
+}
+
+
+#card-groups{
+
+    margin-top: 50px;
+}
+
+
+#yonetim{
+    text-align: center;
+    margin-top: 20px;
+    color: #edf2f4;
+    font-family: 'Montserrat' ,sans-serif;
+}
+
+
+.sorular{
+    width: 100%;
+    height: 100%;
+    background-color: #edf2f4;
+}
+
+
+#sorular-baslik{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+footer {
+    background-color: #edf2f4;
+    width: 100%;
+    height: 100%;
+    
+}
+.text-center {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgba(77 , 77 , 77 , 0.7);
+    margin: 0;
+    padding: 15px;
+  }
+
+  .h{
+    margin: 0;
+    color: rgba(77 , 77 , 77 , 0.7);
+    background-color:rgba(77 , 77 , 77 , 0.7); 
+    
+  }
+
+
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+
+
+  }
+
+  .reveal.active{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+
+  .isim-text{
+    color: #ef233c;
+  }
+  .cards{
+    margin-top: 100px;
+}
+
+
+.img-card:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+#u18text{
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    color: #edf2f4;
+margin-top: 14px;
+}
+
+
+.card img:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+.bg{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.bg img{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    
+}
+.about{
+    width: 100%;
+    background-color: #edf2f4;
+    display: flex;
+    align-items: center;
+
+}
+#about-text{
+    text-align: justify;
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards-player{
+    background-color: white;
+    width: 280px;
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+.player-1{
+    background-image: url('images/curry.jpg');
+}
+
+.card-image{
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.player-2{
+    background-image: url('images/lebron.jpg');
+    
+}
+
+.player-3{
+    background-image: url('images/mertosman.jpg');
+
+}
+.cards-player h5{
+    padding: 5px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif
+   
+}
+.cards-player p{
+    padding: 5px;
+    font-family: 'Montserrat',sans-serif
+}
+#car-logo{
+    width: 300px;
+    height: 300px;
+}
+
+.cards-player a {
+    background-color: #bf0603;
+    color: #edf2f4;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 50px;
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif
+
+}
+.cards-player:hover{
+    background-color: #ced4da ;
+    transform: scale(1.03);
+    transition: all .5s ease;
+    filter: drop-shadow(0px 0px 15px white);
+}
+.cards-player a:hover{
+    text-decoration: none;
+    color: white;
+    
+} 
+
+.logo-biz{
+    padding: 15px;
+    margin-top: 20px;
+}
+.text-biz{
+    padding: 15px;
+    margin-top: 40px;
+}
+#title-biz{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+
+.contact{
+    background-color: #edf2f4;
+    display: flex;
+    margin: 1%;
+    
+}
+.map{
+    display: flex;
+    justify-items: right;
+}
+
+ #cont-title{
+    font-family: 'Montserrat' ,sans-serif;
+    margin-left: 30px;
+    margin-top: 25px;
+    
+ }
+
+@media screen and (max-width:419px) {
+    #car-logo{
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+@media screen and (max-width:376px) {
+    #car-logo{
+        padding: 20px;
+    }
+    
+}
+
+@media screen and (max-width:605px){
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #text-biz{
+        text-align: center;
+    }
+
+    .logo-biz{
+        margin-top: 15px;
+    }
+
+
+    
+}
+
+@media screen and (max-width:420px){
+    #u18text{
+        margin-top: 25px;
+    }
+}
+
